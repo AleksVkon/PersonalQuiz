@@ -16,9 +16,6 @@ final class ResultViewController: UIViewController {
     @IBOutlet var resultLabelEmoji: UILabel!
     @IBOutlet var resultLabelText: UILabel!
     
-    
-//    let mostFrequentAnimal = animalCounts.max(by: { $0.value < $1.value })
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.hidesBackButton = true
